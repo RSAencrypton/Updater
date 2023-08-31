@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MetaBIM.admin" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQFAAAAEAAAAAAACIAAAAAAAAAI=</HashCode>
+      <FileName>App\admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MetaBIM.DataProxyResponse&lt;T&gt;" Collapsed="true">
+    <Position X="15.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAABAABQEAAAAAAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>App\DataProxyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoosterLoader.Config.Config" Collapsed="true">
+    <Position X="13.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAACAAAQAAAIAAAAAAAAAABA=</HashCode>
+      <FileName>App\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IModel" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAEBAAAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>App\IModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Package" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBAAIQEEAACAAAAAAAFAIAAAAAAAAAA=</HashCode>
+      <FileName>App\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewer">
+    <Position X="8.25" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VersionChecker" Collapsed="true">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VersionCheckModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownloadModule.Download" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAACKCAAAAAAAIAAgAAQAAAAAAAAA=</HashCode>
+      <FileName>NetworkModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoosterLoader.ProgramStarter.ProgramStarter" Collapsed="true">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramStarter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipperModule.Zipper" Collapsed="true">
+    <Position X="17" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZipperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

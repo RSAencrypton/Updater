@@ -1,0 +1,46 @@
+{"key":"000","profileGuid":"admin","itemGuid":"182075fc122448f3b4a62760f91de99f","endpoint":"0.0.0.0","target":"admin","package":"{}","filters":[{"key":"status","value":"dev","condition":"eq"}],"guid":"8f4dee69a4ef4490a8a7911d54adae2b","status":"dev","created":"638284098534711513","updated":"638284098534765709"}
+
+using System;
+using System.Net.Http;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+public class Package
+{
+    public string Key1 { get; set; }
+    public int Key2 { get; set; }
+}
+
+public class Program
+{
+    public static async Task Main(string[] args)
+    {
+        var package = new Package { Key1 = "value1", Key2 = 42 };
+
+        // 将Package对象转换为JSON字符串
+        var packageJson = JsonSerializer.Serialize(package);
+
+        // 创建URL并添加查询参数
+        var baseUrl = "https://xxx.com";
+        var url = $"{baseUrl}?package={Uri.EscapeDataString(packageJson)}";
+
+        using (var httpClient = new HttpClient())
+        {
+            // 创建并发送POST请求
+            var response = await httpClient.PostAsync(url, null);
+
+            // 处理响应
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Success!");
+            }
+            else
+            {
+                Console.WriteLine($"Failed: {response.StatusCode}");
+            }
+        }
+    }
+}
+
+
+{"key":"000","profileGuid":"admin","itemGuid":"182075fc122448f3b4a62760f91de99f","endpoint":"0.0.0.0","target":"admin","package":"{}","filters":[{"key":"status","value":"dev","condition":"eq"}],"guid":"17c0e68c06904e3698359b41f4c8ce2c","status":"dev","created":"638284759117945157","updated":"638284759118005645"}
